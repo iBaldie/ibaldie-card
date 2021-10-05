@@ -18,19 +18,18 @@ const banner = `
 
 // Define options for Boxen
 const options = {
-  padding: 1,
+  padding: 2,
   margin: 1,
-  borderColor: "#366880"
+  borderColor: "#ffffff"
 };
 
 // Text + chalk definitions
 const data = {
-  banner: chalk.hex("#5C7480")(banner), //#20B968
+  banner: chalk.hex("#ffffff")(banner), //#20B968
   name: chalk.white("Liam Baldwin"),
   handle: chalk.cyan("ibaldie"),
   work:
-    chalk.hex("#947E39")("👋 I help 🖨 PSPs ") +
-    chalk.hex("#B89C46")("🔀 Streamline & ⚙️ Automate"),
+    chalk.hex("#ffffff")("👋I help 🖨 PSPs 🔀Streamline & Automate"),
   twitter: chalk.white("https://twitter.com/ibaldie"),
   github: chalk.white("https://github.com/ibaldie"),
   twitch: chalk.white("https://twitch.tv/ibaldie"),
@@ -46,17 +45,18 @@ const data = {
 };
 
 // Actual strings we're going to output
-const working = `               ${data.work}\n`;
-const twittering = `    ${data.labelTwitter}  ${data.twitter}`;
-const githubing = `    ${data.labelGitHub}  ${data.github}`;
+const working = `   ${data.work}\n`;
+const twittering = `   ${data.labelTwitter}  ${data.twitter}`;
+const githubing = `  ${data.labelGitHub}  ${data.github}`;
 const youtubing = `     ${data.labelYouTube}  ${data.youtube}`;
 const twitching = `      ${data.labelTwitch}  ${data.twitch}`;
 const webing = `        ${data.labelWeb}  ${data.web}`;
-const carding = `\n    ${data.labelCard}  ${data.npx}`;
+const carding = `${data.labelCard}  ${data.npx}`;
 
 const set1 = [data.banner, working];
 const set2 = twittering + `\n` + githubing;
-const set3 = youtubing + `\n` + twitching + `\n` + webing;
+const set3 = ``;
+// const set3 = youtubing + `\n` + twitching + `\n` + webing;
 
 const card = [set1.join(newline), set2, set3, carding];
 

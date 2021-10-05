@@ -29,8 +29,8 @@ const data = {
   name: chalk.white("Liam Baldwin"),
   handle: chalk.cyan("ibaldie"),
   work:
-    chalk.hex("#947E39")("Im not Bald. ") +
-    chalk.hex("#B89C46")("(Yet!)."),
+    chalk.hex("#947E39")("👋 I help 🖨 PSPs ") +
+    chalk.hex("#B89C46")("🔀 Streamline & ⚙️ Automate"),
   twitter: chalk.white("https://twitter.com/ibaldie"),
   github: chalk.white("https://github.com/ibaldie"),
   twitch: chalk.white("https://twitch.tv/ibaldie"),
